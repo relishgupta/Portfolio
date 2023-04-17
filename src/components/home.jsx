@@ -20,8 +20,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
-          <img src={mypic} alt="my profile" className='rounded-full mx-auto h-60 md:h-auto mb-24 sm:mb-32 md:mb-0 w-40 md:w-[300px]' />
+        <div className='mob:mr-[-8.5rem]'>
+          <img src={mypic} alt="my profile" className='rounded-full mx-auto h-60 md:h-auto mb-24 mob:mt-[-4.25rem] sm:mb-32 md:mb-0 w-40 md:w-[300px]' />
         </div>
       </div>
     </div>
