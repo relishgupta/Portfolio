@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <div className='mob:mr-[-8.5rem]'>
-          <img src={mypic} alt="my profile" className='rounded-full mx-auto h-60 mob-[12rem] md:h-auto mb-24 mob:mt-[-4.25rem] sm:mb-32 md:mb-0 w-40 md:w-[300px]' />
+          <img src={mypic} alt="my profile" className='rounded-full mx-auto h-[12rem] mob-[12rem] md:h-auto mb-[7rem] mob:mt-[-4.25rem] sm:mb-32 md:mb-0 w-40 md:w-[300px]' />
         </div>
       </div>
     </div>
