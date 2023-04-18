@@ -6,7 +6,6 @@ import tw from '../assets/tw.png';
 import react from '../assets/react.png';
 import git from '../assets/git.png';
 import github from '../assets/github.png';
-import netlify from '../assets/netlify.png';
 
 const Skills = () => {
   const techs=[
@@ -57,12 +56,6 @@ const Skills = () => {
       src:github,
       title:'GITHUB',
       style: "shadow-yellow-500",
-    },
-    {
-      id:9,
-      src:netlify,
-      title:'NETLIFY',
-      style: "shadow-violet-500",
     },
   ];
   
