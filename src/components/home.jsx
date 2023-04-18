@@ -1,5 +1,6 @@
 import mypic from '../assets/rel.png';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
+import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
@@ -11,12 +12,12 @@ const Home = () => {
           As a frontend developer, I specialize in building responsive and user-friendly websites using the latest technologies such as HTML, CSS, and JavaScript. I am proficient in various frameworks such as React and Tailwind and have experience with version control systems such as Git. Looking for an internship opportunity to further develop my skills and contribute to exciting projects in the field of web development.
           </p>
           <div>
-            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+            <Link to='projects' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
               Projects
               <span className='group-hover:rotate-90 duration-300'>
                 <MdOutlineKeyboardArrowRight  className='ml-1'/>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
