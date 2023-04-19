@@ -30,7 +30,7 @@ const Projects = () => {
     {
       id:6,
       src:game,
-      style:"hidden sm:shadow-md shadow-gray-600 rounded-lg",
+      style:"mob:hidden",
     },
   ];
 
@@ -48,6 +48,7 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {projects.map(({src,id,style})=>(
             <div key={id} className={`shadow-md shadow-gray-600 rounded-lg + ${style}`}>
+                 <span><p className="text-base">Portfolio</p></span>
                 <img
                   src={src}
                   alt=""
