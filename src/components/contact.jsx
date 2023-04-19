@@ -41,7 +41,7 @@ const Contact = () => {
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 pt-4 mob:pt-1 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-6 mob:pt-[337px]">
+        <div className="pb-7 mob:pt-[330px]">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
@@ -81,7 +81,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="flex flex-col top-[35%] md:hidden">
+        <div className="flex flex-col top-[35%] sm:hidden">
           <ul className="mob:mt-[-61px] mob:ml-[50px]">
             {links.map(({id,child,href,style,download})=>(
               <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[100px] mt-2 rounded-md " + style}>
