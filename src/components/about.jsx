@@ -7,7 +7,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-[-1rem]">
+        <p className="text-lg sm:text-xl mt-[-1rem]">
         Hello, my name is Relish Gupta, and I am a B.Tech student at Shri Mata Vaishno Devi University. I am passionate about Frontend Development and eager to gain practical experience in the industry through an internship.
         <br/>
         Skills and Expertise: HTML, CSS, JAVASCRIPT, SASS, REACT, TAILWIND CSS, GIT, GITHUB.
