@@ -1,4 +1,40 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+
 const Contact = () => {
+  const links=[
+    {
+      id:1,
+      child:(
+        <>
+          Linkedin <FaLinkedin size={30} />
+        </>
+      ),
+      href:"https://www.linkedin.com/in/relish-gupta-165692234/",
+      style:"rounded-tr-md bg-blue-500",
+    },
+    {
+      id:2,
+      child:(
+        <>
+          Github <FaGithub size={30} />
+        </>
+      ),
+      href:"https://github.com/relishgupta",
+      style:"bg-gray-500"
+    },
+    {
+      id:3,
+      child:(
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href:"mailto:guptarelish333Gmail.com",
+      style:"bg-red-500"
+    },
+  ];
+
   return (
     <div
       name="contact"
@@ -9,10 +45,11 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="hidden sm:py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 sm:hidden">Connect with me</p>
         </div>
 
-        <div className=" flex justify-center items-center">
+        <div className="hidden sm:flex justify-center items-center">
           <form
             action="https://getform.io/f/cc72a437-e99e-4735-adb2-74f9a4ba4aaf"
             method="POST"
@@ -44,6 +81,17 @@ const Contact = () => {
             </button>
           </form>
         </div>
+        <div className="flex flex-col top-[35%] md:hidden">
+          <ul>
+            {links.map(({id,child,href,style,download})=>(
+              <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[100px] mt-2 rounded-md " + style}>
+                <a href={href} className="flex justify-between items-center w-full text-white" target="_blank" rel="noreferrer">
+                  {child}
+                </a>
+              </li>
+            ))}
+          </ul>
+    </div>
       </div>
     </div>
   );
