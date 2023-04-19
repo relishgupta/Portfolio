@@ -41,7 +41,7 @@ const Contact = () => {
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 pt-4 mob:pt-1 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-7 mob:pt-[330px]">
+        <div className="pb-[-4.25rem] mob:pt-[330px]">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
@@ -49,7 +49,7 @@ const Contact = () => {
           <p className="py-6 sm:hidden">Connect with me</p>
         </div>
 
-        <div className="hidden sm:flex justify-center items-center">
+        <div className="hidden sm:flex justify-center items-center mb-[-76px]">
           <form
             action="https://getform.io/f/cc72a437-e99e-4735-adb2-74f9a4ba4aaf"
             method="POST"
