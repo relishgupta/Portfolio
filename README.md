@@ -1,0 +1,2 @@
+My recent portfolio website created using React and Tailwind CSS, showcasing my skills and projects as a Frontend Developer.
+As a frontend developer, I specialize in building responsive and user-friendly websites using the latest technologies such as HTML, CSS, and JavaScript. I am proficient in various frameworks such as React and Tailwind and have experience with version control systems such as Git.
