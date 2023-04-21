@@ -38,7 +38,7 @@ const Projects = () => {
     {
       id:5,
       src:spotify,
-      title:'Leave Management System',
+      title:'Spotify clone',
       url:'https://relishgupta.github.io/Spotify/',
       code:'https://github.com/relishgupta/Spotify',
     },
