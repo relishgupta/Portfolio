@@ -3,7 +3,7 @@ import crowntunes from "../assets/projects/crowntunes.jpg";
 import crownclothing from "../assets/projects/crownclothing.jpg";
 import portfolio from "../assets/projects/portfolio.jpg";
 import quote from "../assets/projects/quotes.jpg";
-import spotify from "../assets/projects/spotify.jpg";
+import lms from "../assets/projects/lms.jpg";
 
 const Projects = () => {
   const projects=[
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       id:3,
       src:crowntunes,
-      title:'Music website',
+      title:'Music website UI',
       url:'https://crowntunes-relishgupta.netlify.app/',
       code:'https://github.com/relishgupta/music-website',
     },
@@ -37,10 +37,10 @@ const Projects = () => {
     },
     {
       id:5,
-      src:spotify,
-      title:'Spotify clone',
-      url:'https://relishgupta.github.io/Spotify/',
-      code:'https://github.com/relishgupta/Spotify',
+      src:lms,
+      title:'Leave Management System UI',
+      url:'https://lms-smvdu.netlify.app/',
+      code:'https://github.com/relishgupta/lms',
     },
     {
       id:6,
