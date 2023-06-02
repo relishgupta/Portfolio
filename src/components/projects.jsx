@@ -2,7 +2,7 @@ import game from "../assets/projects/game.jpg";
 import crowntunes from "../assets/projects/crowntunes.jpg";
 import crownclothing from "../assets/projects/crownclothing.jpg";
 import portfolio from "../assets/projects/portfolio.jpg";
-import quote from "../assets/projects/quotes.jpg";
+import ngo from "../assets/projects/ngo.jpg";
 import lms from "../assets/projects/lms.jpg";
 
 const Projects = () => {
@@ -24,16 +24,16 @@ const Projects = () => {
     {
       id:3,
       src:crowntunes,
-      title:'Music website UI',
+      title:'Music Website UI',
       url:'https://crowntunes-relishgupta.netlify.app/',
       code:'https://github.com/relishgupta/music-website',
     },
     {
       id:4,
-      src:quote,
-      title:'Random Quote Generator',
-      url:'https://quote-generator-1b09d2.netlify.app/',
-      code:'https://github.com/relishgupta/advice-app',
+      src:ngo,
+      title:'NGO Website',
+      url:'https://anmolculturalclub.netlify.app/',
+      code:'https://github.com/relishgupta/NGO',
     },
     {
       id:5,
