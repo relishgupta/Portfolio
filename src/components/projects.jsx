@@ -38,9 +38,9 @@ const Projects = () => {
     {
       id:5,
       src:lms,
-      title:'Leave Management System UI',
-      url:'https://lms-smvdu.netlify.app/',
-      code:'https://github.com/relishgupta/lms',
+      title:'Google clone',
+      url:'https://explorehub-searchengine.netlify.app/',
+      code:'https://github.com/relishgupta/Search-application',
     },
     {
       id:6,
